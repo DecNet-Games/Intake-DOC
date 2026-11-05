@@ -5,7 +5,7 @@
 # github-pages gem in the Gemfile is the working setup.)
 
 title: Intake
-description: Documentation for Intake — the AI-model refinery inside Unity: folder-in, prefab-out intake that budgets, grounds and documents raw AI-generated models, with a report card for every model.
+description: "Documentation for Intake — the AI-model refinery inside Unity: folder-in, prefab-out intake that budgets, grounds and documents raw AI-generated models, with a report card for every model."
 baseurl: "/Intake-DOC"
 url: "https://decnet-games.github.io"
 repository: DecNet-Games/Intake-DOC

@@ -15,6 +15,8 @@ Drop raw AI-generated models in the Inbox. Get **grounded, budgeted prefabs** ou
 [Get started]({{ site.baseurl }}/docs/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Buy on the Unity Asset Store](https://assetstore.unity.com/publishers/118262){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+![Intake — raw AI models in, budgeted prefabs out]({{ site.baseurl }}/assets/images/cover-2400x1600.png)
+
 ---
 
 ## The problem with raw generator output
@@ -31,8 +33,18 @@ Raw AI-generator output is not ready for your game. A simple prop commonly lands
 
 The **Messy Crate Test** ships in the package: a deliberately raw crate at **184,512 triangles**, floating, corner pivot, two 4096×4096 textures, materials for the wrong pipeline. Intake returns it as a Ready prefab at **3,999 triangles** — grounded, LOD chain and convex collider attached, textures capped, materials converted — with the report card showing every number before and after. See [The Messy Crate Test]({{ site.baseurl }}/docs/messy-crate-test/).
 
+![The Messy Crate going through Intake: queued, run, reported, ready]({{ site.baseurl }}/assets/images/intake-raw-to-ready.gif)
+
+<video controls width="100%" src="{{ site.baseurl }}/assets/video/intake-demo.mp4"></video>
+
+![184,512 triangles in, 3,999 out — budget pass, collider pass, on the card]({{ site.baseurl }}/assets/images/showcase-02-2400x1600.png)
+
 ## One home window
 
 **Tools → Decnet Games → Intake** opens Intake Home: the Intake Queue, Report Cards, Profiles and Settings in one window, with a welcome screen whose quick actions run setup, start the Messy Crate Test, and open the documentation and support pages. See [The Home Window]({{ site.baseurl }}/docs/home-window/).
 
+![The Intake window and the result, side by side]({{ site.baseurl }}/assets/images/showcase-01-2400x1600.png)
+
 > Automated verification for v1.0.0: the full EditMode suite passes **32/32 in a clean install on Unity 2022.3 LTS**, and every fixture is green on **Unity 6**, with zero compile errors. Intake refines **static props and environment pieces** — it does not retopologise, and version 1 does not process glTF/GLB: a .glb file is detected and answered with the FBX instruction only. See [What v1 Is Not]({{ site.baseurl }}/docs/what-v1-is-not/).
+
+![.glb and .gltf are detected, never imported — one instruction instead: export as FBX]({{ site.baseurl }}/assets/images/showcase-05-2400x1600.png)
